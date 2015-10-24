@@ -2,7 +2,7 @@
 
 class News_model extendes CI_Model {
 
-	public function __contruct()
+	public function __construct()
 	{
 	  $this->load->database();
 	}
